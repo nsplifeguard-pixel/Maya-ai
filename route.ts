@@ -32,7 +32,7 @@ export async function POST(request: NextRequest) {
   const apiKey = process.env.OPENAI_API_KEY;
   if (!apiKey) {
     return NextResponse.json(
-      { error: "เซิร์ฟเวอร์ยังไม่ได้ตั้งค่า OPENAI_API_KEY" },
+      { error: "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" },
       { status: 500 }
     );
   }
